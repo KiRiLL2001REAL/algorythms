@@ -140,10 +140,7 @@ public:
 	    }
     }
 
-	inline void dump() {
-        _dump(pseudo->left);
-        cout << endl;
-    }
+	inline void dump() { _dump(pseudo->left); }
 };
 
 #include <chrono>
